@@ -10,13 +10,13 @@
     "data": [
         "data/res_partner_website_menu.xml",
         "views/res_partner_website.xml",
-        "views/res_partner_views.xml"
+        "views/res_partner_views.xml",
     ],
-    # "assets": {
-    #     "web.assets_frontend": [
-    #         "res_partner_website_extend/static/src/js/online_admission.js",
-    #     ],
-    # },
+    "assets": {
+        "web.assets_frontend": [
+            "res_partner_website_extend/static/src/js/res_partner.js",
+        ],
+    },
     "application": True,
     "installable": True,
     "auto_install": False,
