@@ -43,7 +43,7 @@
                                 <div class="mb-3 col-6">
                                     <label class="mb-1 text-primary"><span class="fw-bold">Country</span></label>
                                     <div>
-                                        <select class="form-select" name="country_id">
+                                        <select name="country_id" class="select2 form-control">
                                             <t t-foreach="country_ids or []" t-as="country">
                                                 <option t-att-value="country.id"><t t-esc="country.name"/></option>
                                             </t>

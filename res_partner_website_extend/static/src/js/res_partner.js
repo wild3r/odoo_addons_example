@@ -10,6 +10,7 @@ odoo.define('res_partner_website_extend.res_partner', function (require) {
         start: function () {
             this._super.apply(this, arguments);
             this.$('select[name="country_id"]').on('change', this._onCountryChange.bind(this));
+            this.$('select.select2').select2();
         },
 
         _onCountryChange: function (event) {
